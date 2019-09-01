@@ -120,6 +120,9 @@ nav.shrink{
   margin-top: 5%;
   color: white;
 }
+.text{
+  padding:30px;
+}
 .form-inline {
   padding-left: 30%;
 }
