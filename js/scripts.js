@@ -46,4 +46,11 @@ $("#submit").click(function() {
   console.log(total);
   $("#total").text(total);
 });
+//FOR DELIVERY
+$('#img').click(function() {
+
+  alert("the delivery cost is ksh 1200");
+  var a = prompt("enter ur location");
+  alert("your order will be delivered to" + " " + a);
+});
 });
