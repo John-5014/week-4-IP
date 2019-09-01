@@ -19,6 +19,38 @@
   
   
 }
+#cool{
+  font-family:'acme';
+  color: red;
+  font-size:49px;
+  
+}
+#cool :hover{
+  color:yellow;
+}
+#roy{
+  font-family:'acme';
+  color: red;
+  font-size:49px;
+}
+#roy :hover{
+  color:yellow;
+}
+#glass{
+  font-family:'acme';
+  color: red;
+  font-size:49px;
+}
+#glass :hover{
+  color:yellow;
+}
+#submit{
+  color:black;
+  opacity: 100;
+}
+#submit:hover{
+  color: green;
+}
 #prime{
   margin-top: 12%;
 }
@@ -31,6 +63,10 @@ img{
   padding:3%;
   margin-top: 6%;
   font-size:26px;
+}
+.row, img :hover{
+opacity:0.9;
+cursor: pointer;
 }
 .menu{
   text-align: center;
@@ -45,11 +81,14 @@ img{
   margin-top: 12%;
   font-family: italics;
   opacity:0.7;
-  font-size: 16px;
+  font-size: 18px;
   padding: 70px 30px;
   text-align: center; 
   width: 33%;
   
+}
+#bill{
+  font-size: 28px;
 }
 #zuri{
   font-size: 20px;
@@ -128,4 +167,8 @@ nav.shrink{
 }
 nav{
   margin-left: 2%;
+}
+#buzz{
+  text-align: center;
+
 }

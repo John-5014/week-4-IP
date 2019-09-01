@@ -84,3 +84,9 @@ $("#send").click(function(event){
 });
 
 });
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").slidetoggle(2800);
+
+  });
+});
