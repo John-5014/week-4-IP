@@ -10,6 +10,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   //BUSINESS LOGIC
+
+
   function placeOrder(size, crust, toppings) {
     this.sizeChoice = size;
     this.sizeCrust = crust;
@@ -24,6 +26,8 @@ placeOrder.prototype.summary = function() {
 
 
 //USER INTERFACE
+
+
 $("#submit").click(function() {
   var size = $('#size').val();
   var crust = $('#crust').val();
@@ -46,7 +50,11 @@ $("#submit").click(function() {
   console.log(total);
   $("#total").text(total);
 });
+
+
 //FOR DELIVERY
+
+
 $('#img').click(function() {
 
   alert("the delivery cost is ksh 1200");
@@ -60,7 +68,11 @@ $("#send").click(function(event){
   var userName=$("#name").val();
   var userEmail=$("#email").val();
   var userMessage=$("#comments").val();
+
+
 /** user logic interface */
+
+
   if((userName!=="") && (userEmail !== "") && (userMessage !="")){
       alert(userName + " ,We have received your message.Thank you for reaching out to us");
   }
