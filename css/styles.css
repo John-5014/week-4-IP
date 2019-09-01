@@ -112,10 +112,11 @@ h2{
   font-size: 23px;
 }
 #gari{
-  animation: heartbeat 4s infinite;
+  /* animation: heartbeat 4s infinite; */
+  animation: mymove 3s infinite;
   padding: 4%;
 }
-@keyframes heartbeat {
+@keyframes mymove {
   0%,
   20%,
   50%,
@@ -129,6 +130,7 @@ h2{
   60% {
     transform: translateY(-45px);
   }
+  
 }
 nav ul {
   padding: 34px;
@@ -171,4 +173,31 @@ nav{
 #buzz{
   text-align: center;
 
+}
+.img{
+  margin-top: 20%;
+}
+.card-body{
+  padding: 3px;
+  margin: 3px;
+  
+}
+.icon{
+  text-align: center;
+}
+.kuyt{
+  margin: 6%;
+  text-align: center;
+  color:white;
+  font-family:am;
+  animation: mymove 4s infinite;
+  padding: 4%;
+  margin-top:1%;
+}
+.year{
+  font-size: 25px;
+}
+.icon{
+  margin-top: 65px;
+  margin-left:2%
 }
