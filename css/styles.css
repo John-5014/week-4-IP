@@ -113,7 +113,7 @@ h2{
 }
 #gari{
   /* animation: heartbeat 4s infinite; */
-  animation: mymove 3s infinite;
+  animation: mymove 5s infinite;
   padding: 4%;
 }
 @keyframes mymove {
@@ -190,7 +190,7 @@ nav{
   text-align: center;
   color:white;
   font-family:am;
-  animation: mymove 4s infinite;
+  animation: mymove 5s infinite;
   padding: 4%;
   margin-top:1%;
 }
