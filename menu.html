@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./images/logo1.png">
+    <title>kaiser-pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./js/jquery-3.4.1.js"></script>
+
+  
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+  <style>
+  body{
+    /* background-image: url('./images/hotpizza.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:250vh;
+    /* width: 120vh; */
+    background-image:url("../images/tripplepizza.jpeg");
+    /* background-image: url('../images/pizza-2.jpg'); */
+    /* overflow-x:hidden ; */
+    /* object-fit: cover; */
+    /* background-color: black; */
+    /* background-image: url('.'); */
+  }
+  </style>
+ 
+  
+  
+</head>
+<body>
+  <!-- nav-bar with bootstrap -->
+  <!-- positioning the nav-bar with sticky position -->
+  <nav class="navbar navbar-expand-md sticky-top">
+
+    <!-- <button class="navbar-toggler"  data-target="#collapse_target" data-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="collapse navbar-collapse" id="collapse_target">
+    <!-- adding text and logo -->
+
+    <a class="navbar-brand"><img src="./images/logo1.png" alt="" width="120" height="70"></a>
+    <ul class="navbar-nav">
+      <li class="nav item">
+        <a class="nav-link" href="./index.html">Home</a>
+
+      </li>
+      <li class="nav item dropdown">
+          <a class="nav-link" href="menu.html">Menu</a>
+  
+        </li>
+        <li class="nav item">
+            <a class="nav-link" href="./contacts.html">Contacts</a>
+    
+          </li>
+          <!-- <li class="nav item">
+              <a class="nav-link" href="#">Link 4</a>
+      
+            </li> -->
+    </ul>
+  </div>
+  </nav>
+  <!-- <div id="kula">
+      <h1>OUR MENU</h1>
+  </div> -->
+  <!-- <div class="second"></div> -->
+  
+  <div class="menu">
+    <h2 id="prime">OUR MENU</h2>
+    <p id="zuri"><em>For the greatest experience at our palace <br> we provide the listed unique pizzas with delicious toppings and extra customer preference that comes with bonuses from drinks to gift coupons.</em></p>
+    <div class="row">
+      <div class=" col-md-4">
+        <img src="./images/Lahm.jpg" width="250" alt="">
+        <p><em>Lahm pizza</em></p>
+      </div>
+      <div class="col-md-4">
+          <img src="./images/marghrita.jpg" width="250" alt="">
+          <p><em>margharita pizza</em></p>
+        </div>
+        <div class="col-md-4">
+            <img src="./images/marinara.jpg" width="250" alt="">
+            <p><em>marinara pizza</em></p>
+          </div>
+    </div>
+    
+      <div class=" second">
+
+          <div id="form"  class="col-md-6">
+              <label><strong>choose the size of the pizza</strong><br>
+                          <select id="size">
+                              <option value="0">Open this to select the size</option>
+                              <option value="1000">small</option>
+                              <option value="1500">medium</option>
+                              <option value="2000">large</option>
+                          </select>
+                      </label><br><br>
+  
+              <label><strong>Choose the crust of your pizza</strong><br>
+                          <select id="crust">
+                              <option>Open this to select the crust
+                              </option>
+                              <option value="1000">Crispy</option>
+                              <option value="1500">Stuffed</option>
+                              <option value="1200">Gluten Free</option>
+                          </select>
+                      </label><br><br>
+              <div id="topping">
+                  <label><strong>Choose the topings</strong><br>
+                              <input type="checkbox" id="small" name="scales"
+                                  value="300" checked>
+                              <label>pepperoni</label><br>
+                  <input type="checkbox" id="small" name="scales" value="450" checked>
+                  <label>Mushrooms</label><br>
+                  <input type="checkbox" id="small" name="scales" value="500" checked>
+                  <label>Onions</label><br>
+                  <input type="checkbox" id="small" name="scales" value="540" checked>
+                  <label>sausage</label>
+              </div>
+  
+  
+              </label><br><br>
+              <input id="submit" type="submit" value="CHECKOUT">
+  
+  
+          </div>
+  
+  
+  
+          
+          <h2>you ordered the following:</h2>
+          <ul id="placeorderlist">
+  
+          </ul>
+          <p>The total is ksh:</p>
+          <p id="total"></p>
+
+         
+      </div>
+
+     
+     
+</div>
