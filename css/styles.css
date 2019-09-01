@@ -25,3 +25,25 @@ nav.shrink{
   height: 60px;
   padding-top:0px;
 }
+.about{
+  text-align: center;
+  color:white;
+  /* margin-top:45%; */
+  margin:1%;
+  font-family:italics;
+  font-size:34px;
+  margin-left: 10%;
+  
+}
+#kwanza{
+  color:red;
+  text-align: center;
+  margin-top:5%;
+  font-family:'acme';
+  margin-left: 10%;
+  
+  
+}
+#prime{
+  margin-top: 12%;
+}
