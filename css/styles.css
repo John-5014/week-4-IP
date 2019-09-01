@@ -4,7 +4,6 @@
 .about{
   text-align: center;
   color:white;
-  /* margin-top:45%; */
   margin:1%;
   font-family:italics;
   font-size:34px;
@@ -32,14 +31,11 @@ img{
   padding:3%;
   margin-top: 6%;
   font-size:26px;
-  
-  /* margin: 230px; */
 }
 .menu{
   text-align: center;
   justify-content:space-around;
   margin-top: 5%;
-  /* padding:32% */
   color: white;
 
 }
@@ -51,7 +47,6 @@ img{
   opacity:0.7;
   font-size: 16px;
   padding: 70px 30px;
-  /* margin-bottom:20%; */
   text-align: center; 
   width: 33%;
   
@@ -72,7 +67,6 @@ h2{
   color: red;
 }
 #delivery{
-  /* color: white; */
   text-align: center;
   margin-left:0%;
   color: black;
@@ -97,18 +91,6 @@ h2{
     transform: translateY(-45px);
   }
 }
-/* #kula{
-  color: white;
-  text-align: center;
-  margin-top:18%;
-} */
-/* .menu{
-  /* text-align: center; */
-  /* margin:20%; */
-  /* justify-content:space-around; */
-  padding: 1px;
-  margin-left: 100px;
-} */
 nav ul {
   padding: 34px;
   margin: 4px;
@@ -118,8 +100,6 @@ nav ul {
 nav a {
   display: inline-block;
   width: 100px;
-  /* font-weight: 400px; */
-  /* text-align: center; */
   text-decoration: none;
   padding: 20px 0;
   color: white;
@@ -136,10 +116,8 @@ nav.shrink{
   padding-top:0px;
 }
 .contact {
-  /* background-image: url("../images/backgrounds/c_image.jpg"); */
   text-align: center;
   margin-top: 5%;
-  /* background-size: cover; */
   color: white;
 }
 .form-inline {
@@ -148,7 +126,3 @@ nav.shrink{
 nav{
   margin-left: 2%;
 }
-/* nav li{
-  display: inline-block;
-  float: left;
-} */
