@@ -1,33 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-nav ul {
-  padding: 34px;
-  margin: 4px;
-  font-family: 'Times New Roman', Times, serif;
 
-}
-nav a {
-  display: inline-block;
-  width: 100px;
-  /* font-weight: 400px; */
-  /* text-align: center; */
-  text-decoration: none;
-  padding: 20px 0;
-  color: white;
-  transition: 1s;
-  font-size: 28px;
-}
 
-nav a:hover {
-  color:green;
-}
-nav.shrink{
-  background-color: rgba(0,0,0,0.5);
-  height: 60px;
-  padding-top:0px;
-}
-nav{
-  margin-left: 2%;
-}
 .about{
   text-align: center;
   color:white;
@@ -136,6 +109,32 @@ h2{
   padding: 1px;
   margin-left: 100px;
 } */
+nav ul {
+  padding: 34px;
+  margin: 4px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  /* font-weight: 400px; */
+  /* text-align: center; */
+  text-decoration: none;
+  padding: 20px 0;
+  color: white;
+  transition: 1s;
+  font-size: 28px;
+}
+
+nav a:hover {
+  color:green;
+}
+nav.shrink{
+  background-color: rgba(0,0,0,0.5);
+  height: 60px;
+  padding-top:0px;
+}
 .contact {
   /* background-image: url("../images/backgrounds/c_image.jpg"); */
   text-align: center;
@@ -146,3 +145,10 @@ h2{
 .form-inline {
   padding-left: 30%;
 }
+nav{
+  margin-left: 2%;
+}
+/* nav li{
+  display: inline-block;
+  float: left;
+} */
