@@ -1,0 +1,26 @@
+nav ul {
+  padding: 34px;
+  margin: 4px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  /* font-weight: 400px; */
+  /* text-align: center; */
+  text-decoration: none;
+  padding: 20px 0;
+  color: white;
+  transition: 1s;
+  font-size: 28px;
+}
+
+nav a:hover {
+  color:green;
+}
+nav.shrink{
+  background-color: rgba(0,0,0,0.5);
+  height: 60px;
+  padding-top:0px;
+}
