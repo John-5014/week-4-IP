@@ -25,6 +25,9 @@ nav.shrink{
   height: 60px;
   padding-top:0px;
 }
+nav{
+  margin-left: 2%;
+}
 .about{
   text-align: center;
   color:white;
@@ -133,3 +136,13 @@ h2{
   padding: 1px;
   margin-left: 100px;
 } */
+.contact {
+  /* background-image: url("../images/backgrounds/c_image.jpg"); */
+  text-align: center;
+  margin-top: 5%;
+  /* background-size: cover; */
+  color: white;
+}
+.form-inline {
+  padding-left: 30%;
+}
