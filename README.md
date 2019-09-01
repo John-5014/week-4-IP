@@ -14,6 +14,7 @@ In this website ,it outlines how you can order your desired pizza with the preff
 ## Bugs Known
 
 The site had problems running some images moreso on the home images.
+A well known bug is on the effect of the nav bar as you scroll down the page.
 ## Technologies/Languages Used
 html-create and develop the actual webpage content
 css and bootstrap - Extensively used inorder to customize and restyle the webpages as a whole.
