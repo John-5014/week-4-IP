@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-
+body{
+  text-align: center;
+}
 
 .about{
   text-align: center;
@@ -197,5 +199,5 @@ nav{
 
 .icon{
   margin-top: 65px;
-  margin-left:2%
+  margin-left:2%;
 }
