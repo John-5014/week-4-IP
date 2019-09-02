@@ -73,9 +73,12 @@ cursor: pointer;
 .menu{
   text-align: center;
   justify-content:space-around;
-  margin-top: 5%;
+  margin-top: 15%;
   color: white;
 
+}
+.karibu{
+  margin-top:17%;
 }
 .second{
   background-color:black;
@@ -168,6 +171,7 @@ nav.shrink{
 }
 .form-inline {
   padding-left: 30%;
+  margin-top:-11%
 }
 nav{
   margin-left: 2%;
@@ -182,6 +186,7 @@ nav{
 .card-body{
   padding: 3px;
   margin: 3px;
+  margin-top:13%;
   
 }
 .icon{
